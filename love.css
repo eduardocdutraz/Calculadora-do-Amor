@@ -1,0 +1,66 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Estilos para a div principal */
+.main-div {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff6c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para as divs de input */
+.your-div, .partner-div {
+    margin-bottom: 20px;
+}
+
+/* Estilos para os inputs e labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Cor do texto */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: dodgerblue;
+}
+
+/* Estilos para o resultado */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #FF0004
+}
+
+/* Estilos para o botão */
+#btn {
+    border: none;
+    background-color: #0CB4FF; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #4B4DF2
+}
